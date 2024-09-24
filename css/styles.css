@@ -158,11 +158,25 @@ footer > a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3C3E46;
+  background: #191B1E;
+  /* background: linear-gradient(45deg, #9B51E0, #3DA5E0); */
   border: 0.5px solid #FFFFFF19;
   border-radius: var(--border-radius);
+}
+
+footer > a > * {
   text-transform: capitalize;
   font-weight: 500;
+  background-clip: text;
+  box-decoration-break: clone;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-box-decoration-break: clone;
+  -moz-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, #9B51E0, #3DA5E0);
 }
 
 /* Card */
