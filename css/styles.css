@@ -298,6 +298,10 @@ footer > a {
 }
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  :root {
+    --width: min(100dvw, 375px);
+  }
+  
   .link, .link:visited, .link:active,
   .button, .button:visited, .button:active {
     cursor: pointer;
