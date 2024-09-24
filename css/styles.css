@@ -299,7 +299,7 @@ footer > a {
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   :root {
-    --width: min(100dvw, 375px);
+    --width: min(100dvw, 390px);
   }
   
   .link, .link:visited, .link:active,
