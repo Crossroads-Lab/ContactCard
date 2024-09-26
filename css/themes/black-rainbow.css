@@ -17,12 +17,17 @@
   --card-link-background: #FFFFFF09;
   --card-link-border-left: 1px solid #00000044;
 
-  --picture-border: 1px solid #FFFFFF87;
+  --picture-border: 0.5px solid #FFFFFF87;
   --picture-background: #A1A1A1;
 
   --link-background: linear-gradient(45deg, #E0515309, #E0DB5109, #5BE05109, #3DA5E009, #9B51E009);
 
   --icon-filter: none;
+}
+
+#card {
+  outline: 0.5px solid #FFFFFF22;
+  outline-offset: -1px;
 }
 
 #card > a > img {
@@ -39,4 +44,6 @@ footer > a {
   --_shadow: inset 0 0 100px #AADDFF4F;
   -webkit-box-shadow: var(--_shadow);
   box-shadow: var(--_shadow);
+  outline: 0.5px solid #FFFFFF22;
+  outline-offset: -1px;
 }
