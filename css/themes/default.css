@@ -231,7 +231,7 @@ footer > a > * {
 }
 #card > a {
   width: 66px;
-  background: var(--card-link-background);
+  /* background: var(--card-link-background); */
   border-left: var(--card-link-border-left);
 }
 #card::before {
