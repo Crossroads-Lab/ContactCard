@@ -26,7 +26,7 @@
 }
 
 #card {
-  outline: 2px solid #FFFFFF22;
+  outline: 1.5px solid #FFFFFF22;
   outline-offset: -1px;
 }
 
@@ -44,6 +44,6 @@ footer > a {
   --_shadow: inset 0 0 100px #AADDFF4F;
   -webkit-box-shadow: var(--_shadow);
   box-shadow: var(--_shadow);
-  outline: 2px solid #FFFFFF22;
+  outline: 1.5px solid #FFFFFF22;
   outline-offset: -1px;
 }
