@@ -21,7 +21,7 @@
   --picture-border: 1px solid #FFFFFF87;
   --picture-background: #A1A1A1;
 
-  --link-background: linear-gradient(45deg, #E0515305, #E0DB5105, #5BE05105, #3DA5E005, #9B51E005);
+  --link-background: linear-gradient(45deg, #E051530E, #E0DB510E, #5BE0510E, #3DA5E00E, #9B51E00E);
 
   --icon-filter: invert();
 }
