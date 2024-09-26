@@ -1,0 +1,49 @@
+@import './default.css';
+
+/* Globals */
+:root {
+  --background: white;
+  --color: #000000D9;
+
+  --footer-background: linear-gradient(45deg, #E0515344, #E0DB5144, #5BE05144, #3DA5E044, #9B51E044);
+  --footer-color: var(--color);
+  --footer-border: 0.5px solid #FFFFFF19;
+
+  --card-background: radial-gradient(
+    100% 100% at 50% 0%,
+    #E0515344, #E0DB5144, #5BE05144, #3DA5E044, #9B51E044
+  );
+  --card-border-background: linear-gradient(to bottom, #FFFFFF87, #FFFFFF2F);
+  --card-link-background: #FFFFFF09;
+  --card-link-border-left: 1px solid #00000011;
+
+  --picture-border: 1px solid #FFFFFF87;
+  --picture-background: #A1A1A1;
+
+  --link-background: linear-gradient(45deg, #E0515305, #E0DB5105, #5BE05105, #3DA5E005, #9B51E005);
+
+  --icon-filter: invert();
+}
+
+#card > a > img {
+  filter: invert();
+  /* filter: brightness(0); */
+}
+
+#card > div > img {
+  filter: brightness(0.4);
+}
+
+#card > a {
+  filter: invert();
+}
+
+#card > a,
+#card > div {
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
+}
+
+#links > a {
+  box-shadow: inset 0 0 100px #191B1E19;
+}
