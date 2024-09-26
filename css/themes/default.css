@@ -198,7 +198,7 @@ footer > a {
   background: var(--footer-background);
   color: var(--footer-color);
   border: var(--footer-border);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-round);
 }
 
 footer > a > * {
