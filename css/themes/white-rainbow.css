@@ -52,3 +52,7 @@
   -webkit-box-shadow: var(--_shadow);
   box-shadow: var(--_shadow);
 }
+
+footer > a > * {
+  font-weight: 600;
+}

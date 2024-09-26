@@ -204,6 +204,7 @@ footer > a {
 footer > a > * {
   text-transform: capitalize;
   font-weight: 500;
+  color: var(--footer-color);
 }
 
 /* Card */
