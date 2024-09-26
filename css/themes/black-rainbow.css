@@ -30,7 +30,7 @@
 }
 
 #links > a {
-  --_shadow: inset 0 0 100px #FFFFFF33;
+  --_shadow: inset 0 0 100px #FFFFFF22;
   -webkit-box-shadow: var(--_shadow);
   box-shadow: var(--_shadow);
 }
