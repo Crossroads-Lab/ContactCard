@@ -27,7 +27,6 @@
 
 #card > a > img {
   filter: invert();
-  /* filter: brightness(0); */
 }
 
 #card > div > img {
@@ -45,5 +44,7 @@
 }
 
 #links > a {
-  box-shadow: inset 0 0 100px #191B1E19;
+  --_shadow: inset 0 0 100px #191B1E19;
+  -webkit-box-shadow: var(--_shadow);
+  box-shadow: var(--_shadow);
 }
