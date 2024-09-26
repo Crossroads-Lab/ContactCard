@@ -65,9 +65,9 @@
   scroll-behavior: smooth;
 }
 
-*:not(img):not(video):not(canvas):not(body) {
+/* *:not(img):not(video):not(canvas):not(body) {
   overflow: visible;
-}
+} */
 
 *:focus {
   outline: none;
