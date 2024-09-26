@@ -16,7 +16,7 @@
   --card-border-background: linear-gradient(to bottom, #FFFFFF87, #FFFFFF2F);
   --card-link-background: #FFFFFF09;
   --card-link-border-left: 1px solid #00000044;
-  --card-shadow: #00000022 0 0 30px;
+  --card-shadow: #00000022 0 7px 15px;
 
   --picure-border: 0.5px solid #FFFFFF87;
   --picture-background: #A1A1A1;
@@ -65,9 +65,9 @@
   scroll-behavior: smooth;
 }
 
-/* *:not(img):not(video):not(canvas):not(body) {
+*:not(img):not(video):not(canvas):not(body) {
   overflow: visible;
-} */
+}
 
 *:focus {
   outline: none;
