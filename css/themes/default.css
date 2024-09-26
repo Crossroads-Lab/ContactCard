@@ -266,7 +266,7 @@ footer > a > * {
   margin-top: calc(-0.5 * var(--picture-size));
   margin-left: var(--border-radius-4x);
   border-radius: var(--border-radius-round);
-  border: var(--picure-border);
+  border: var(--picture-border);
   overflow: hidden;
   background: var(--picture-background);
 }
