@@ -11,12 +11,11 @@
 
   --card-background: radial-gradient(
     100% 100% at 50% 0%,
-    #616161 0%,
-    #16171A 100%
+    #E0515344, #E0DB5144, #5BE05144, #3DA5E044, #9B51E044
   );
   --card-border-background: linear-gradient(to bottom, #FFFFFF87, #FFFFFF2F);
   --card-link-background: #FFFFFF09;
-  --card-link-border-left: 1px solid #00000044;
+  --card-link-border-left: 1px solid #00000011;
 
   --picure-border: 0.5px solid #FFFFFF87;
   --picture-background: #A1A1A1;
@@ -24,4 +23,23 @@
   --link-background: #191B1E19;
 
   --icon-filter: invert();
+}
+
+#card > a > img {
+  filter: invert();
+  /* filter: brightness(0); */
+}
+
+#card > div > img {
+  filter: brightness(0.4);
+}
+
+#card > a {
+  filter: invert();
+}
+
+#card > a,
+#card > div {
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
 }
