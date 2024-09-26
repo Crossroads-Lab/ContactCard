@@ -13,7 +13,7 @@
     100% 100% at 50% 0%,
     #E0515311, #E0DB5111, #5BE05111, #3DA5E011, #9B51E011
   );
-  --card-border-background: linear-gradient(to bottom, #FFFFFF66, #FFFFFF2F);
+  --card-border-background: linear-gradient(to bottom, #FFFFFF66, #AADDFF2F);
   --card-link-background: #FFFFFF09;
   --card-link-border-left: 1px solid #00000044;
 
