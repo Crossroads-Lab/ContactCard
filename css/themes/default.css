@@ -324,7 +324,7 @@ footer > a > * {
   gap: 12px;
   border-radius: var(--border-radius);
   background: var(--link-background);
-  padding: 8px;
+  padding: 12px;
   min-width: var(--link-size);
   min-height: var(--link-size);
 }
