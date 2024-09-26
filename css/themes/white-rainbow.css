@@ -6,7 +6,7 @@
   --color: #000000D9;
 
   --footer-background: linear-gradient(45deg, #E0515344, #E0DB5144, #5BE05144, #3DA5E044, #9B51E044);
-  --footer-color: var(--color);
+  --footer-color: #0000009F;
   --footer-border: 0.5px solid #FFFFFF19;
 
   --card-background: radial-gradient(
