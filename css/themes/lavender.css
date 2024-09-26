@@ -2,17 +2,17 @@
 
 /* Globals */
 :root {
-  --background: white;
-  --color: #000000D9;
+  --background: #6D6F8B;
+  --color: #FFFFFFF2;
 
-  --footer-background: linear-gradient(45deg, #E051535F, #E0DB515F, #5BE0515F, #3DA5E05F, #9B51E05F);
+  --footer-background: linear-gradient(45deg, #3033615F, #721B755F);
   --footer-color: var(--color);
   --footer-border: 0.5px solid #FFFFFF19;
 
   --card-background: radial-gradient(
     100% 100% at 50% 0%,
     #616161 0%,
-    #16171A 100%
+    #140223 100%
   );
   --card-border-background: linear-gradient(to bottom, #FFFFFF87, #FFFFFF2F);
   --card-link-background: #FFFFFF09;
@@ -21,7 +21,7 @@
   --picure-border: 0.5px solid #FFFFFF87;
   --picture-background: #A1A1A1;
 
-  --link-background: #191B1E19;
+  --link-background: #191B1E33;
 
-  --icon-filter: invert();
+  --icon-filter: none;
 }
