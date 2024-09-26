@@ -36,7 +36,7 @@
 }
 
 footer > a {
-  --_shadow: inset 0 0 100px #FFFFFF55;
+  --_shadow: inset 0 0 100px #AADDFF4F;
   -webkit-box-shadow: var(--_shadow);
   box-shadow: var(--_shadow);
 }
