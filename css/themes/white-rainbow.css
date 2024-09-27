@@ -22,6 +22,7 @@
   --picture-background: #A1A1A1;
 
   --link-background: linear-gradient(45deg, #E051530E, #E0DB510E, #5BE0510E, #3DA5E00E, #9B51E00E);
+  --link-icon-background: var(--footer-background);
 
   --icon-filter: invert();
 }
@@ -38,16 +39,23 @@
   filter: invert();
 }
 
+#link-lines > a > div > img,
 #card > a,
 #card > div {
   -webkit-mix-blend-mode: difference;
   mix-blend-mode: difference;
 }
+
 #card > div > span {
   opacity: 0.5;
 }
 
-#links > a {
+#link-lines > a > div > img {
+  opacity: 0.8;
+}
+
+/* #link-lines > a, */
+#link-tiles > a {
   --_shadow: inset 0 0 70px #191B1E22;
   -webkit-box-shadow: var(--_shadow);
   box-shadow: var(--_shadow);

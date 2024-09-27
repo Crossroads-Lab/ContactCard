@@ -22,6 +22,7 @@
   --picture-background: #A1A1A1;
 
   --link-background: #191B1E;
+  --link-icon-background: #3C3E46;
 
   --icon-filter: none;
 
@@ -202,6 +203,10 @@ footer > a {
   border-radius: var(--border-radius-round);
 }
 
+body:has(#link-lines) footer > a {
+  border-radius: var(--border-radius);
+}
+
 footer > a > * {
   text-transform: capitalize;
   font-weight: 500;
@@ -321,9 +326,9 @@ footer > a > * {
 }
 
 /* Links */
-#links {
+#link-lines,
+#link-tiles {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   gap: 18px;
   padding-top: 32px;
@@ -333,7 +338,15 @@ footer > a > * {
   padding-bottom: calc(var(--footer-height) + 3 * var(--size-12-24));
 }
 
-#links > a {
+#link-tiles {
+  flex-wrap: wrap;
+}
+
+#link-lines {
+  flex-direction: column;
+}
+
+#link-tiles > a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -347,11 +360,12 @@ footer > a > * {
   min-height: var(--link-size);
 }
 
-#links > a img {
+#link-lines > a > img,
+#link-tiles > a img {
   filter: var(--icon-filter);
 }
 
-#links > a b {
+#link-tiles > a b {
   font-size: 14px;
   font-weight: 500;
   max-height: 42px;
@@ -361,6 +375,38 @@ footer > a > * {
   line-clamp: 2; 
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+#link-lines > a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: var(--border-radius-round);
+  background: var(--link-background);
+  padding-right: 16px;
+}
+
+#link-lines > a > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-round);
+  width: 48px;
+  height: 48px;
+  background: var(--link-icon-background);
+}
+
+#link-lines > a > div:last-of-type {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 10px;
+}
+
+#link-lines > a > div:last-of-type > b {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
