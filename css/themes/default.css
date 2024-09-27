@@ -19,7 +19,7 @@
   --card-shadow: #00000022 0 7px 15px;
 
   --picture-border: 0.5px solid #FFFFFF87;
-  --picture-background: #A1A1A1;
+  --picture-background: #919191;
 
   --link-background: #191B1E;
   --link-icon-background: #3C3E46;
@@ -32,7 +32,7 @@
   --size-24-48: min(max(4.3504dvw, 24px), 48px);
   --size-12-24: min(max(2.1752dvw, 12px), 24px);
   --width: min(100dvw, 500px);
-  --picture-size: 72px;
+  --picture-size: 78px;
   --link-size: 98px;
   --footer-height: 56px;
 
