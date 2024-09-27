@@ -330,7 +330,7 @@ footer > a > * {
   /* flex: 1; */
   flex-shrink: 1;
   overflow: scroll !important;
-  padding-bottom: calc(var(--footer-height) + var(--size-12-24));
+  padding-bottom: calc(var(--footer-height) + 3 * var(--size-12-24));
 }
 
 #links > a {
