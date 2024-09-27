@@ -27,7 +27,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, var(--background), #E0515310, #E0DB5110, #5BE05110, #3DA5E010, #9B51E010, var(--background));
+  background: linear-gradient(to bottom, var(--background), #E0515309, #E0DB5109, #5BE05109, #3DA5E009, #9B51E009, var(--background));
 }
 
 #card {
