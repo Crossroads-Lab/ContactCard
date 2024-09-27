@@ -242,7 +242,7 @@ footer > a > * {
   -moz-box-decoration-break: clone !important;
   -moz-text-fill-color: transparent !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(180deg, #AAB2BA 0%, #FFFFFF 51%, #D0E3E6 53%, #FFFFFF 61%);
+  background-image: linear-gradient(180deg, #AAB2BA 0%, #FFFFFF 51%, #D0E3E6 53%, #FFFFFF 65%);
   font-weight: 700;
   font-size: 20px;
   text-wrap: balance;
