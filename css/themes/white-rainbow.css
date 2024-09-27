@@ -19,7 +19,7 @@
   --card-shadow: #00000011 0 7px 15px;
 
   --picture-border: 1px solid #FFFFFF87;
-  --picture-background: #A1A1A1;
+  --picture-background: #DDD;
 
   --link-background: linear-gradient(45deg, #E051530E, #E0DB510E, #5BE0510E, #3DA5E00E, #9B51E00E);
   --link-icon-background: var(--footer-background);
