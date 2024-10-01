@@ -1,0 +1,44 @@
+@import './default.css';
+
+/* Globals */
+:root {
+  --background: black;
+  --color: #FFFFFFF2;
+
+  --footer-background: linear-gradient(45deg, #BF9B3066, #FFCF4090);
+  --footer-color: var(--color);
+  --footer-border: 0.5px solid #FFFFFF19;
+
+  --card-background: radial-gradient(
+    100% 100% at 50% 0%,
+    #FFCF40 0%,
+    #A67C00 100%
+  );
+  --card-border-background: linear-gradient(to bottom, #FFCF4087, #FFFFFF87);
+  --card-link-background: #FFFFFF09;
+  --card-link-border-left: 1px solid #FFFFFF44;
+
+  --picure-border: 0.5px solid #FFFFFF87;
+  --picture-background: #919191;
+
+  --link-background: #191B1E;
+  --link-icon-background: #BF9B30;
+
+  --icon-filter: none;
+}
+
+#card > div > img {
+  filter: brightness(0.8);
+}
+
+#card > div > img.silver {
+  filter: brightness(0.3);
+}
+
+#card > a {
+  filter: invert();
+}
+
+#card > a > img {
+  filter: brightness(1.1);
+}
