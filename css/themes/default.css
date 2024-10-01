@@ -252,6 +252,10 @@ footer > a > * {
   font-size: 20px;
   text-wrap: balance;
 }
+#card > div > img {
+  max-height: 60%;
+  max-width: 60%;
+}
 #card > a {
   width: 66px;
   background: var(--card-link-background);
