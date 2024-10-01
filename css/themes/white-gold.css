@@ -11,8 +11,8 @@
 
   --card-background: radial-gradient(
     100% 100% at 50% 0%,
-    #FFCF40 0%,
-    #A67C00 100%
+    #FFD550 0%,
+    #A97E10 100%
   );
   --card-border-background: linear-gradient(to bottom, #FFCF4087, #FFFFFF87);
   --card-link-background: #FFFFFF09;
