@@ -277,7 +277,7 @@ footer > a > * {
   left: 0.5px;
   border-radius: inherit;
   z-index: 0;
-  background-image: var(--card-background);
+  background: var(--card-background);
 }
 
 /* Picture */
