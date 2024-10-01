@@ -31,6 +31,10 @@
   filter: brightness(0.8);
 }
 
+#card > div > img.silver {
+  filter: brightness(0.3);
+}
+
 #card > a {
   filter: invert();
 }
