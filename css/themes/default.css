@@ -257,7 +257,8 @@ footer > a > * {
   max-width: 70%;
 }
 #card > a {
-  width: 66px;
+  min-width: 66px;
+  max-width: 66px;
   background: var(--card-link-background);
   border-left: var(--card-link-border-left);
 }
