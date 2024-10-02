@@ -1,0 +1,37 @@
+:root {
+  --card-background: white;
+  --card-border-background: radial-gradient(
+    100% 100% at 50% 0%,
+    #FFD550 0%,
+    #A97E10 100%
+  );
+  --card-border-size: 10px;
+  --card-link-background: none;
+  --card-link-border-left: 0;
+}
+
+#card {
+  border-radius: 1px;
+}
+#card:after {
+  clip-path: polygon(
+    0 7%,
+    4% 0,
+    96% 0,
+    100% 7%,
+    100% 93%,
+    96% 100%,
+    4% 100%,
+    0% 93%
+  );
+}
+
+#card > div > img {
+  filter: none;
+}
+
+#card > a,
+#card > div {
+  -webkit-mix-blend-mode: normal;
+  mix-blend-mode: normal;
+}

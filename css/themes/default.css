@@ -14,6 +14,7 @@
     #16171A 100%
   );
   --card-border-background: linear-gradient(to bottom, #FFFFFF87, #FFFFFF2F);
+  --card-border-size: 0.5px;
   --card-link-background: #FFFFFF09;
   --card-link-border-left: 1px solid #00000044;
   --card-shadow: #00000022 0 7px 15px;
@@ -276,10 +277,10 @@ footer > a > * {
 #card::after {
   content: ' ';
   position: absolute;
-  top: 0.5px;
-  right: 0.5px;
-  bottom: 0.5px;
-  left: 0.5px;
+  top: var(--card-border-size);
+  right: var(--card-border-size);
+  bottom: var(--card-border-size);
+  left: var(--card-border-size);
   border-radius: inherit;
   z-index: 0;
   background: var(--card-background);
