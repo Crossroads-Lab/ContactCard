@@ -1,20 +1,8 @@
 :root {
-  --card-background: white;
-  --card-border-background: radial-gradient(
-    100% 100% at 50% 0%,
-    #FFD550 0%,
-    #A97E10 100%
-  );
   --card-border-size: 10px;
   --card-link-background: none;
   --card-link-border-left: 0;
-}
-
-#card {
-  border-radius: 1px;
-}
-#card:after {
-  clip-path: polygon(
+  --clip-path: polygon(
     0 7%,
     4% 0,
     96% 0,
@@ -24,6 +12,25 @@
     4% 100%,
     0% 93%
   );
+  --inside-clip-path: polygon(
+    0 10%,
+    7% 0,
+    100% 0,
+    100% 100%,
+    7% 100%,
+    0% 90%
+  );
+}
+
+#card {
+  border-radius: 1px;
+}
+#card::before {
+  background: var(--card-background);
+}
+#card:after {
+  clip-path: var(--clip-path);
+  background: var(--background);
 }
 
 #card > div > img {
@@ -32,6 +39,24 @@
 
 #card > a,
 #card > div {
+  position: relative;
   -webkit-mix-blend-mode: normal;
   mix-blend-mode: normal;
+}
+
+#card > div::before {
+  content: ' ';
+  z-index: -1;
+  position: absolute;
+  clip-path: var(--inside-clip-path);
+  top: var(--card-border-size);
+  right: var(--card-border-size);
+  bottom: var(--card-border-size);
+  left: var(--card-border-size);
+  background: var(--background);
+}
+
+#card > div > span {
+  background-image: var(--card-background);
+  filter: brightness(0.9);
 }
