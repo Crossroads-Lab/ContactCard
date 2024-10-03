@@ -345,7 +345,11 @@ footer > a > * {
   padding-bottom: calc(var(--footer-height) + 3 * var(--size-12-24));
 }
 
-#link-icons,
+#link-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 #link-tiles {
   flex-wrap: wrap;
 }
@@ -360,7 +364,6 @@ footer > a > * {
   align-items: center;
   min-width: var(--link-size);
   min-height: var(--link-size);
-  flex: 1;
   gap: 12px;
 }
 
