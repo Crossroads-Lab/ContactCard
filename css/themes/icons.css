@@ -1,0 +1,23 @@
+#link-icons > a > div:has(img[src*="email"]) {
+  background: linear-gradient(to top, #0ED3FF, #1272FF);
+}
+
+#link-icons > a > div:has(img[src*="mobile"]) {
+  background: linear-gradient(to top, #13C12F, #55F16E);
+}
+
+#link-icons > a > div:has(img[src*="calendar"]) {
+  background: radial-gradient(#84D2E8, #67CECB);
+}
+
+#link-icons > a > div:has(img[src*="user"]) {
+  background: linear-gradient(to top, #896236, #BD9B62);
+}
+
+#link-icons > a > div:has(img[src*="calendly"]) {
+  background: #006BFF;
+}
+
+#link-icons > a > div:has(img[src*="linkedin"]) {
+  background: #0063CD;
+}
