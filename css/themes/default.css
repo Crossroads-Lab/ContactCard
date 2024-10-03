@@ -189,8 +189,6 @@ footer {
   bottom: var(--padding-vertical);
   align-items: center;
   justify-content: center;
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
   padding-top: 0;
   padding: 0;
   width: calc(var(--width) - 2 * var(--padding-horizontal));
@@ -206,6 +204,8 @@ footer > a {
   color: var(--footer-color);
   border: var(--footer-border);
   border-radius: var(--border-radius-round);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
 }
 
 footer::after {
