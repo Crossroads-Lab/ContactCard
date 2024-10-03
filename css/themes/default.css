@@ -36,6 +36,8 @@
   --picture-size: 78px;
   --link-size: 98px;
   --footer-height: 56px;
+  --padding-horizontal: 24px;
+  --padding-vertical: var(--size-12-24);
 
   /* Border radius */
   --border-radius-round: max(100vw, 100vh);
@@ -120,7 +122,7 @@ body {
 body > * {
   display: flex;
   width: var(--width);
-  padding: var(--size-12-24) 24px;
+  padding: var(--padding-vertical) var(--padding-horizontal);
 }
 
 /* Link and button */
@@ -184,12 +186,14 @@ a,
 /* Save contact */
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: var(--padding-vertical);
   align-items: center;
   justify-content: center;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   padding-top: 0;
+  padding: 0;
+  width: calc(var(--width) - 2 * var(--padding-horizontal));
 }
 
 footer > a {
@@ -202,6 +206,16 @@ footer > a {
   color: var(--footer-color);
   border: var(--footer-border);
   border-radius: var(--border-radius-round);
+}
+
+footer::after {
+  content: ' ';
+  left: 0;
+  bottom: calc(-1 * var(--padding-vertical));
+  position: absolute;
+  background: var(--background);
+  width: 100%;
+  height: var(--padding-vertical);
 }
 
 body:has(#link-lines) footer > a {
