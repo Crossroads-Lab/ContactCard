@@ -477,7 +477,7 @@ footer > a > * {
   }
 
   #share {
-    display: none !important;
+    /* display: none !important; */
   }
   
   .link, .link:visited, .link:active,
