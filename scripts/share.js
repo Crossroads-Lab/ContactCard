@@ -1,7 +1,9 @@
+const file = document.currentScript.getAttribute('file');
 const shareData = {
-  // title: "Contact Card",
-  // text: "Check out my contact info",
+  title: "Contact Info",
+  text: "Check out my contact info",
   url: window.location.href,
+  file: file && [file] || undefined
 },
 btn = document.getElementById("share");
 btn && btn.addEventListener("click", async () => {
