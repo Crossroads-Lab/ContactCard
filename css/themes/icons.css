@@ -291,3 +291,30 @@
 .link-icons > a > div:has(img[src*="evernote"]) {
   background: #00A90D;
 }
+
+.link-icons > a > div:has(img[src*="apple"]) {
+  background: #222;
+}
+
+.link-icons > a > div:has(img[src*="google"]) {
+  background: none;
+  background-image: conic-gradient( 
+    #229243AA 0 90deg,
+    #FCC219AA 91deg 180deg,
+    #1A73E9AA 181deg 270deg, 
+    #E53D30AA 271deg 360deg
+  ),
+  radial-gradient(
+    100% 100% at 50% 50%,
+    #000 0%,
+    #363E4F 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="twitch"]) {
+  background: #9146FF;
+}
+
+.link-icons > a > div:has(img[src*="medium"]) {
+  background: #002233;
+}
