@@ -8,17 +8,11 @@ EMAIL;type=INTERNET;type=pref:brendel.william@gmail.com
 TEL;type=pref:(415) 539-5322
 X-SOCIALPROFILE;type=scholar.google.com;x-user="https://scholar.google.com/citations?user=mR3fVeIAAAAJ:https://scholar.google.com/citations?hl=en&user=mR3fVeIAAAAJ:x-apple:https%3A//scholar.google.com/citations%3Fhl=en&user=mR3fVeIAAAAJ":x-apple://scholar.google.com/citations%3Fuser=mR3fVeIAAAAJ:https://scholar.google.com/citations%3Fhl=en&user=mR3fVeIAAAAJ:x-apple:https%253A//scholar.google.com/citations%253Fhl=en&user=mR3fVeIAAAAJ
 X-SOCIALPROFILE;type=linkedin::https://www.linkedin.com/in/william-brendel-670b2a52/:http://www.linkedin.com/in/https%3A//www.linkedin.com/in/william-brendel-670b2a52/
+X-SOCIALPROFILE;type=facebook::https://www.facebook.com/profile.php?id=61552871301763
+X-SOCIALPROFILE;type=instagram::https://www.instagram.com/automarketer.ai
+X-SOCIALPROFILE;type=x::https://x.com/AutoMarketer_ai
+URL;type=HomePage;type=pref:www.william-brendel.com
 URL;type=WORK;type=pref:https://automarketer.ai
-item1.URL:www.william-brendel.com
-item1.X-ABLabel:_$!<HomePage>!$_
-item2.URL;type=pref:https://automarketer.ai/
-item2.X-ABLabel:Automarketer
-item3.URL:https://www.facebook.com/profile.php?id=61552871301763
-item3.X-ABLabel:Facebook | Automarketer
-item4.URL:https://www.instagram.com/automarketer.ai
-item4.X-ABLabel:Instagram | Automarketer
-item5.URL:https://x.com/AutoMarketer_ai
-item5.X-ABLabel:X | Automarketer
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAAkACQAAD/4QB0RXhpZgAATU0AKgAA
  AAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAA
  AAAACQAAAAAQAAAJAAAAABAAKgAgAEAAAAAQAAA56gAwAEAAAAAQAAA54AAAAA/+0AOFBob3Rv
