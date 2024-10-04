@@ -393,7 +393,7 @@ footer > a > * {
   min-height: var(--_icon-container-size);
   max-width: var(--_icon-container-size);
   max-height: var(--_icon-container-size);
-  border-radius: calc(2 * var(--border-radius));
+  border-radius: calc(2.25 * var(--border-radius));
 }
 
 #link-icons > a > div > img {
