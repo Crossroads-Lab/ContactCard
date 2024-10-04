@@ -60,19 +60,63 @@
   )
 }
 
+.link-icons > a > div:has(img[src*="thread"]) {
+  background: none;
+  background-image: radial-gradient(
+    150% 150% at 0% 100%,
+    #0197FF22 0%,
+    #A832FC22 40%,
+    #FF607322 80%
+  ),
+  radial-gradient(
+    100% 100% at 50% 50%,
+    #111 0%,
+    #363E4F 100%
+  );
+}
+
 .link-icons > a > div:has(img[src*="x"]) {
   background: radial-gradient(
     100% 100% at 50% 50%,
-    #363E4F 0%,
+    #303748 0%,
     #111111 100%
   );
 }
 
 .link-icons > a > div:has(img[src*="tiktok"]) {
-  background: radial-gradient(
+  background: none;
+  background-image:
+  /* radial-gradient(
+    17% 30% at 51% 44%,
+    #69C9D02F 0%,
+    transparent 100%
+  ), */
+  radial-gradient(
+    55% 60% at 46% 50%,
+    #69C9D055 0%,
+    transparent 100%
+  ),
+  radial-gradient(
+    55% 60% at 55% 54%,
+    #EE1D5255 0%,
+    transparent 100%
+  ),
+  /* radial-gradient(
+    15% 25% at 60% 58%,
+    #EE1D522F 0%,
+    transparent 100%
+  ), */
+  linear-gradient(
+    -45deg,
+    transparent 20%,
+    #EE1D5209 40%,
+    #69C9D009 60%,
+    transparent 80%
+  ),
+  radial-gradient(
     100% 100% at 50% 50%,
-    #363E4F 0%,
-    #111111 100%
+    #000 0%,
+    #363E4F 100%
   );
 }
 
