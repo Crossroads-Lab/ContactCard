@@ -68,6 +68,34 @@
   );
 }
 
+.link-icons > a > div:has(img[src*="tiktok"]) {
+  background: radial-gradient(
+    100% 100% at 50% 50%,
+    #363E4F 0%,
+    #111111 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="snap"]) {
+  background: #EFEC00;
+}
+
+.link-icons > a > div:has(img[src*="youtube"]) {
+  background: radial-gradient(
+    110% 100% at 50% 50%,
+    #D40018 10%,
+    #FF0000 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="pinterest"]) {
+  background: radial-gradient(
+    110% 100% at 50% 50%,
+    #FF3348 0%,
+    #F00018 80%
+  );
+}
+
 .link-icons > a > div:has(img[src*="yelp"]) {
   background: radial-gradient(
     110% 100% at 50% 0%,
