@@ -325,7 +325,7 @@ footer > a > * {
 #info {
   display: flex;
   width: 100%;
-  padding: 16px 0px 0px var(--border-radius-2x);
+  padding: 16px 0px 12px var(--border-radius-2x);
 }
 #info > div {
   display: flex;
@@ -347,7 +347,7 @@ footer > a > * {
 
 /* Links and section titles */
 #links {
-  padding-top: 24px;
+  padding-top: 12px;
   display: flex;
   flex-direction: column;
   width: 100%;
