@@ -19,6 +19,22 @@
     <link href="../css/themes/icons.css" rel="stylesheet" type="text/css">
     <link href="../assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
+    <script type="text/javascript" defer>
+      const shareData = {
+        title: "Contact Card",
+        text: "Check out my contact info",
+        url: window.location.href,
+      },
+      btn = document.getElementById("share");
+      btn && btn.addEventListener("click", async () => {
+        try {
+          await navigator.share(shareData);
+        } catch (err) {
+          
+        }
+      });
+  
+    </script>
   </head>
 
   <body>
@@ -121,20 +137,4 @@
       </a>
     </footer> -->
   </body>
-  <script>
-    const shareData = {
-      title: "Contact Card",
-      text: "Check out my contact info",
-      url: window.location.href,
-    },
-    btn = document.getElementById("share");
-    btn.addEventListener("click", async () => {
-      try {
-        await navigator.share(shareData);
-      } catch (err) {
-        
-      }
-    });
-
-  </script>
 </html>
