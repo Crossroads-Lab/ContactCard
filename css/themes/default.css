@@ -376,6 +376,7 @@ footer > a > * {
   display: flex;
   flex-direction: column;
   align-items: center;
+  --link-size: 94px;
   min-width: var(--link-size);
   min-height: var(--link-size);
   gap: 10px;
