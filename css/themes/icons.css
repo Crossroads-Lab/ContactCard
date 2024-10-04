@@ -2,6 +2,7 @@
   background: linear-gradient(to top, #0ED3FF, #1272FF);
 }
 
+#link-icons > a > div:has(img[src*="sms"]),
 #link-icons > a > div:has(img[src*="mobile"]) {
   background: linear-gradient(to top, #13C12F, #55F16E);
 }
