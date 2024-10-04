@@ -394,6 +394,7 @@ footer > a > * {
   max-width: var(--_icon-container-size);
   max-height: var(--_icon-container-size);
   border-radius: calc(2.25 * var(--border-radius));
+  background: linear-gradient(to top, #4D5973, #7E828A);
 }
 
 #link-icons > a > div > img {

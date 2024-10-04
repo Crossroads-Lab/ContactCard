@@ -50,6 +50,20 @@
       </div>
       <!-- Links -->
       <div id="link-icons">
+        <!-- Save contact -->
+        <a class="button" target="_blank" href="./assets/contact.vcf" download>
+          <div>
+            <img loading="lazy" src="../assets/download.svg"/>
+          </div>
+          <b>Save Contact</b>
+        </a>
+        <!-- Share contact -->
+        <a id="share" class="button" target="_blank">
+          <div>
+            <img loading="lazy" src="../assets/share.svg"/>
+          </div>
+          <b>Share Contact</b>
+        </a>
         <!-- Email -->
         <a class="button" target="_blank" href="mailto:brendel.william@gmail.com">
           <div>
@@ -71,12 +85,12 @@
           </div>
           <b>Book Meeting</b>
         </a>
-        <!-- Facebook -->
-        <a class="button" target="_blank" href="https://www.facebook.com/profile.php?id=61552871301763">
+        <!-- LinkedIn -->
+        <a class="button" target="_blank" href="https://www.linkedin.com/in/william-brendel/">
           <div>
-            <img loading="lazy" src="../assets/facebook.svg"/>
+            <img loading="lazy" src="../assets/linkedin.svg"/>
           </div>
-          <b>Facebook</b>
+          <b>LinkedIn</b>
         </a>
         <!-- Instagram -->
         <a class="button" target="_blank" href="https://www.instagram.com/automarketer.ai">
@@ -85,12 +99,12 @@
           </div>
           <b>Instagram</b>
         </a>
-        <!-- LinkedIn -->
-        <a class="button" target="_blank" href="https://www.linkedin.com/in/william-brendel/">
+        <!-- Facebook -->
+        <a class="button" target="_blank" href="https://www.facebook.com/profile.php?id=61552871301763">
           <div>
-            <img loading="lazy" src="../assets/linkedin.svg"/>
+            <img loading="lazy" src="../assets/facebook.svg"/>
           </div>
-          <b>LinkedIn</b>
+          <b>Facebook</b>
         </a>
         <!-- X -->
         <a class="button" target="_blank" href="https://x.com/AutoMarketer_ai">
@@ -101,11 +115,26 @@
         </a>
       </div>
     </main>
-    <footer>
+    <!-- <footer>
       <a class="button" href="./assets/contact.vcf" download>
         <b>Save contact</b>
       </a>
-    </footer>
-    </body>
+    </footer> -->
   </body>
+  <script>
+    const shareData = {
+      title: "Contact Card",
+      text: "Check out my contact info",
+      url: window.location.href,
+    },
+    btn = document.getElementById("share");
+    btn.addEventListener("click", async () => {
+      try {
+        await navigator.share(shareData);
+      } catch (err) {
+        
+      }
+    });
+
+  </script>
 </html>
