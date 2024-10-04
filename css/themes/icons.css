@@ -2,6 +2,7 @@
   background: linear-gradient(to top, #0ED3FF, #1272FF);
 }
 
+.link-icons > a > div:has(img[src*="whatsapp"]),
 .link-icons > a > div:has(img[src*="message"]),
 .link-icons > a > div:has(img[src*="sms"]),
 .link-icons > a > div:has(img[src*="phone"]),
@@ -83,34 +84,43 @@
   );
 }
 
+.link-icons > a > div:has(img[src*="github"]) {
+  background: radial-gradient(
+    100% 100% at 50% 50%,
+    #111111 0%,
+    #303748 100%
+  );
+}
+
 .link-icons > a > div:has(img[src*="tiktok"]) {
   background: none;
   background-image:
-  /* radial-gradient(
+  radial-gradient(
     17% 30% at 51% 44%,
     #69C9D02F 0%,
     transparent 100%
-  ), */
+  ),
   radial-gradient(
     55% 60% at 46% 50%,
-    #69C9D055 0%,
+    #69C9D044 0%,
     transparent 100%
   ),
   radial-gradient(
     55% 60% at 55% 54%,
-    #EE1D5255 0%,
+    #EE1D5244 0%,
     transparent 100%
   ),
-  /* radial-gradient(
+  radial-gradient(
     15% 25% at 60% 58%,
     #EE1D522F 0%,
     transparent 100%
-  ), */
+  ),
   linear-gradient(
     -45deg,
     transparent 20%,
-    #EE1D5209 40%,
-    #69C9D009 60%,
+    #EE1D5209 30%,
+    transparent 50%,
+    #69C9D009 70%,
     transparent 80%
   ),
   radial-gradient(
@@ -146,4 +156,138 @@
     #FF5088 10%,
     #F01010 100%
   );
+}
+
+.link-icons > a > div:has(img[src*="skype"]) {
+  background: radial-gradient(
+    110% 100% at 50% 0%,
+    #11C7F0 0%,
+    #00B0E8 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="vimeo"]) {
+  background: radial-gradient(
+    110% 100% at 50% 0%,
+    #00B0E8 0%,
+    #32B8E8 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="discord"]) {
+  background: #5865F2;
+}
+
+.link-icons > a > div:has(img[src*="telegram"]) {
+  background: #34AADF;
+}
+
+.link-icons > a > div:has(img[src*="slack"]) {
+  background: none;
+  background-image:
+  conic-gradient( 
+    #2EB67DAA 0 90deg,
+    #ECB22EAA 91deg 180deg,
+    #E01E5AAA 181deg 270deg, 
+    #36C5F0AA 271deg 360deg
+  ),
+  radial-gradient(
+    100% 100% at 50% 50%,
+    #000 0%,
+    #363E4F 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="zoom"]) {
+  background: #3984FD;
+}
+
+.link-icons > a > div:has(img[src*="drib"]) {
+  background: #E74D89;
+}
+
+.link-icons > a > div:has(img[src*="stackoverflow"]) {
+  background: #F48023;
+}
+
+.link-icons > a > div:has(img[src*="substack"]) {
+  background: #FF6718;
+}
+
+.link-icons > a > div:has(img[src*="tumbl"]) {
+  background: #303D4D;
+}
+
+.link-icons > a > div:has(img[src*="quora"]) {
+  background: #B92B27;
+}
+
+.link-icons > a > div:has(img[src*="flick"]) {
+  background: none;
+  background-image: linear-gradient(
+    to right,
+    #0063DCCC 50%,
+    #FF0084CC 51%
+  ),
+  radial-gradient(
+    100% 100% at 50% 50%,
+    #000 0%,
+    #363E4F 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="behance"]) {
+  background: #222;
+}
+
+.link-icons > a > div:has(img[src*="vk"]) {
+  background: #2787F5;
+}
+
+.link-icons > a > div:has(img[src*="amazon"]) {
+  background: radial-gradient(
+    100% 100% at 50% 50%,
+    #D8A274 0%,
+    #C36C00 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="shopify"]) {
+  background: linear-gradient(
+    -45deg,
+    #86C226 0%,
+    #4D8F2D 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="soundcloud"]) {
+  background: linear-gradient(
+    -45deg,
+    #ED4506 0%,
+    #FF9821 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="spotify"]) {
+  background: #1FD662;
+}
+
+.link-icons > a > div:has(img[src*="spotify"]) img {
+  filter: invert();
+}
+
+.link-icons > a > div:has(img[src*="yahoo"]) {
+  background: linear-gradient(
+    -45deg,
+    #620DDA 0%,
+    #744DF8 100%
+  );
+}
+
+.link-icons > a > div:has(img[src*="alibaba"]) {
+  background: #FF6A00;
+}
+
+.link-icons > a > div:has(img[src*="evernote"]) {
+  background: #00A90D;
 }
