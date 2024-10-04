@@ -366,6 +366,10 @@ footer > a > * {
   grid-gap: 14px 14px;
 }
 
+:has(#link-icons) footer {
+  display: none !important;
+}
+
 #link-tiles {
   flex-wrap: wrap;
 }
