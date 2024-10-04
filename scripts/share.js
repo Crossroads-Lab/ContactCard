@@ -1,7 +1,7 @@
 const file = document.currentScript.getAttribute('file');
 const shareData = {
   title: "Contact Info",
-  text: "Check out my contact info",
+  text: "Check out my info",
   url: window.location.href,
   file: file && [file] || undefined
 },
