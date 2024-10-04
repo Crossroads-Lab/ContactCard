@@ -476,9 +476,9 @@ footer > a > * {
     --width: min(100dvw, 390px);
   }
 
-  #share {
-    /* display: none !important; */
-  }
+  /* #share {
+    display: none !important;
+  } */
   
   .link, .link:visited, .link:active,
   .button, .button:visited, .button:active {
