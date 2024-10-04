@@ -409,6 +409,7 @@ footer > a > * {
   min-height: var(--link-size);
 }
 
+#info > a > img,
 #link-lines > a > img,
 #link-tiles > a img {
   filter: var(--icon-filter);
