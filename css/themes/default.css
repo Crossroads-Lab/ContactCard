@@ -363,6 +363,7 @@ footer > a > * {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 14px;
+  grid-gap: 14px 14px;
 }
 
 #link-tiles {
