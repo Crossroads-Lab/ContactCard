@@ -366,7 +366,8 @@ footer > a > * {
   grid-gap: 14px 14px;
 }
 
-:has(#link-icons) footer {
+:has(a[id*=save]) #info > a > img,
+:has(a[id*=save]) footer {
   display: none !important;
 }
 
