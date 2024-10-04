@@ -385,9 +385,11 @@ footer > a > * {
   display: flex;
   align-items: center;
   justify-content: center;
-  --_icon-container-size: calc(0.75 * var(--link-size));
-  width: var(--_icon-container-size);
-  height: var(--_icon-container-size);
+  --_icon-container-size: calc(0.7 * var(--link-size));
+  min-width: var(--_icon-container-size);
+  min-height: var(--_icon-container-size);
+  max-width: var(--_icon-container-size);
+  max-height: var(--_icon-container-size);
   border-radius: calc(2 * var(--border-radius));
 }
 
