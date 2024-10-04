@@ -268,6 +268,14 @@
   );
 }
 
+.link-icons > a > div:has(img[src*="etsy"]) {
+  background: linear-gradient(
+    to bottom,
+    #DB6B07 0%,
+    #C74500 100%
+  );
+}
+
 .link-icons > a > div:has(img[src*="spotify"]) {
   background: #1FD662;
 }
