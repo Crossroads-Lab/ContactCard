@@ -347,7 +347,7 @@ footer > a > * {
 
 /* Links and section titles */
 #links {
-  padding-top: 12px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   width: 100%;
