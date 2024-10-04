@@ -1,6 +1,6 @@
 const shareData = {
-  title: "Contact Card",
-  text: "Check out my contact info",
+  // title: "Contact Card",
+  // text: "Check out my contact info",
   url: window.location.href,
 },
 btn = document.getElementById("share");
