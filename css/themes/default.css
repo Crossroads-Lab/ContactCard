@@ -355,6 +355,9 @@ footer > a > * {
   overflow: auto !important;
   padding-bottom: calc(var(--footer-height) + 3 * var(--size-12-24));
 }
+:has(a[id*=save]) #links {
+  padding-bottom: calc(2 * var(--size-12-24));
+}
 
 .title {
   width: 100%;
