@@ -1,33 +1,35 @@
-#link-icons > a > div:has(img[src*="email"]) {
+.link-icons > a > div:has(img[src*="email"]) {
   background: linear-gradient(to top, #0ED3FF, #1272FF);
 }
 
-#link-icons > a > div:has(img[src*="sms"]),
-#link-icons > a > div:has(img[src*="mobile"]) {
+.link-icons > a > div:has(img[src*="message"]),
+.link-icons > a > div:has(img[src*="sms"]),
+.link-icons > a > div:has(img[src*="phone"]),
+.link-icons > a > div:has(img[src*="mobile"]) {
   background: linear-gradient(to top, #13C12F, #55F16E);
 }
 
-#link-icons > a > div:has(img[src*="calendar"]) {
+.link-icons > a > div:has(img[src*="calendar"]) {
   background: radial-gradient(#B36C00, #743F00);
 }
 
-#link-icons > a > div:has(img[src*="user"]) {
+.link-icons > a > div:has(img[src*="user"]) {
   background: linear-gradient(to top, #896236, #BD9B62);
 }
 
-#link-icons > a > div:has(img[src*="calendly"]) {
+.link-icons > a > div:has(img[src*="calendly"]) {
   background: #006BFF;
 }
 
-#link-icons > a > div:has(img[src*="linkedin"]) {
+.link-icons > a > div:has(img[src*="linkedin"]) {
   background: #0063CD;
 }
 
-#link-icons > a > div:has(img[src*="facebook"]) {
+.link-icons > a > div:has(img[src*="facebook"]) {
   background: #0062FF;
 }
 
-#link-icons > a > div:has(img[src*="messenger"]) {
+.link-icons > a > div:has(img[src*="messenger"]) {
   background: radial-gradient(
     150% 150% at 0% 100%,
     #0197FF 0%,
@@ -36,7 +38,7 @@
   );
 }
 
-#link-icons > a > div:has(img[src*="instagram"]) {
+.link-icons > a > div:has(img[src*="instagram"]) {
   background: none;
   background-image: radial-gradient(
     150% 100% at 30% 100%,
@@ -58,7 +60,7 @@
   )
 }
 
-#link-icons > a > div:has(img[src*="x"]) {
+.link-icons > a > div:has(img[src*="x"]) {
   background: radial-gradient(
     100% 100% at 50% 50%,
     #363E4F 0%,
@@ -66,7 +68,7 @@
   );
 }
 
-#link-icons > a > div:has(img[src*="yelp"]) {
+.link-icons > a > div:has(img[src*="yelp"]) {
   background: radial-gradient(
     110% 100% at 50% 0%,
     #FF5088 10%,

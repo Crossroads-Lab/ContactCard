@@ -76,7 +76,7 @@
   filter: brightness(1.1);
 }
 
-#link-lines > a > div > img,
+.link-lines > a > div > img,
 #card > a,
 #card > div {
   -webkit-mix-blend-mode: luminosity;
