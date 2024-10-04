@@ -7,7 +7,7 @@
 }
 
 #link-icons > a > div:has(img[src*="calendar"]) {
-  background: radial-gradient(#84D2E8, #67CECB);
+  background: radial-gradient(#B36C00, #743F00);
 }
 
 #link-icons > a > div:has(img[src*="user"]) {
@@ -55,6 +55,14 @@
     #7B00FF 20%,
     #FF10D3EE 80%
   )
+}
+
+#link-icons > a > div:has(img[src*="x"]) {
+  background: radial-gradient(
+    100% 100% at 50% 50%,
+    #363E4F 0%,
+    #111111 100%
+  );
 }
 
 #link-icons > a > div:has(img[src*="yelp"]) {
