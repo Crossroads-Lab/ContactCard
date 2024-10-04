@@ -369,7 +369,7 @@ footer > a > * {
 .title > *:last-child {
   width: 100%;
   padding-bottom: 8px;
-  border-bottom: 0.5px solid rgb(from var(--color) r g b / 30%);
+  border-bottom: 0.5px solid rgb(from var(--color) r g b / 25%);
 }
 
 .link-icons,
