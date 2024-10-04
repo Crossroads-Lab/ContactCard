@@ -16,7 +16,12 @@
 
     <!-- Links -->
     <link href="../css/themes/black-glossy.css" rel="stylesheet" type="text/css">
+    <link href="../css/themes/icons.css" rel="stylesheet" type="text/css">
     <link href="../assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="../scripts/share.js" defer>
+    </script>
 
   </head>
 
@@ -49,7 +54,21 @@
       </div>
       <!-- Links -->
       <div id="links">
-        <div class="link-tiles">
+        <div class="link-icons">
+          <!-- Save contact -->
+          <a id="save" class="button" target="_blank" href="./assets/contact.vcf" download>
+            <div>
+              <img loading="lazy" src="../assets/download.svg"/>
+            </div>
+            <b>Save Contact</b>
+          </a>
+          <!-- Share contact -->
+          <a id="share" class="button" target="_blank">
+            <div>
+              <img loading="lazy" src="../assets/share.svg"/>
+            </div>
+            <b>Share Card</b>
+          </a>
           <!-- Email -->
           <a class="button" target="_blank" href="mailto:pierrick.joliveau@gmail.com">
             <div>
