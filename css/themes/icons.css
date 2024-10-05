@@ -342,3 +342,19 @@
 .link-icons > a > div:has(img[src*="browser"]) {
   background: linear-gradient(to bottom, #0ED3FF, #1272FF);
 }
+
+.link-icons > a > div:has(img[src*="camera"]) {
+  background: radial-gradient(
+    100% 100% at 50% 0%,
+    #D5C9C5,
+    #837B78
+  );
+}
+
+.link-icons > a > div:has(img[src*="camera"]) img {
+  filter: invert();
+}
+
+.link-icons > a > div:has(img[src*="venmo"]) {
+  background: #008CFF;
+}
