@@ -338,3 +338,7 @@
 .link-icons > a > div:has(img[src*="vrbo"]) {
   background: #15326F;
 }
+
+.link-icons > a > div:has(img[src*="browser"]) {
+  background: linear-gradient(to bottom, #0ED3FF, #1272FF);
+}
