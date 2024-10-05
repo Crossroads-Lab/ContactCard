@@ -326,3 +326,11 @@
 .link-icons > a > div:has(img[src*="medium"]) {
   background: #002233;
 }
+
+.link-icons > a > div:has(img[src*="rbnb"]) {
+  background: #FF5A5F;
+}
+
+.link-icons > a > div:has(img[src*="vrbo"]) {
+  background: #15326F;
+}
