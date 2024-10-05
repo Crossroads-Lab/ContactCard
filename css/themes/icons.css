@@ -14,6 +14,10 @@
   background: radial-gradient(#B36C00, #743F00);
 }
 
+.link-icons > a > div:has(img[src*="home"]) {
+  background: radial-gradient(#B36C00, #743F00);
+}
+
 .link-icons > a > div:has(img[src*="user"]) {
   background: linear-gradient(to top, #896236, #BD9B62);
 }
