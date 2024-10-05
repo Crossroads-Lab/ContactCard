@@ -3,6 +3,7 @@
 /* Globals */
 :root {
   --background: black;
+  --background-2: #FFFCF8;
   --color: #FFFFFFF2;
 
   --footer-background: linear-gradient(45deg, #BF9B3066, #FFCF4090);

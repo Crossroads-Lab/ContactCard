@@ -3,9 +3,10 @@
 /* Globals */
 :root {
   --background: black;
+  --background-2: linear-gradient(to top, #000, #10090A);
   --color: #FFFFFFF2;
 
-  --footer-background: linear-gradient(45deg, #9B51E05F, #3DA5E05F);
+  --footer-background: linear-gradient(45deg, #6B51905F, #8DA5A05F);
   --footer-color: var(--color);
   --footer-border: 0.5px solid #FFFFFF19;
 
