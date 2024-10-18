@@ -6,10 +6,15 @@ FN:Juston Berg
 ORG:EDAWN;
 TITLE:VP\, Entrepreneurial Development
 EMAIL;type=INTERNET;type=WORK;type=pref:berg@edawn.org
+item1.EMAIL;type=INTERNET:jb@skaleventures.com
+item1.X-ABLabel:skale ventures
 TEL;type=HOME;type=VOICE;type=pref:+17753131647
-TEL;type=WORK;type=VOICE:775-829-3715
+TEL;type=WORK;type=VOICE:+1 ‭(775) 829-3715
 X-SOCIALPROFILE;type=linkedin:https://www.linkedin.com/in/justonberg/
 NOTE:Reno Launch organizer\, Reno Startup Week organizer
+URL;type=WORK;type=pref:https://www.edawn.org/
+item2.URL:https://skaleventures.com/
+item2.X-ABLabel:sckale ventures
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAAkACQAAD/4QB0RXhpZgAATU0AKgAA
  AAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAA
  AAAACQAAAAAQAAAJAAAAABAAKgAgAEAAAAAQAADUigAwAEAAAAAQAADUgAAAAA/+0AOFBob3Rv
