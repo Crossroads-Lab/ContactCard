@@ -1,13 +1,12 @@
 BEGIN:VCARD
 VERSION:3.0
 PRODID:-//Apple Inc.//macOS 14.7//EN
-N:Reark;Malory;;;
-FN:Malory Reark
+N:Reark;Mallory;;;
+FN:Mallory Reark
 ORG:Your Journey Home\, LLC;
 TITLE:Founder\, Senior & End-of-Life Advocate
 EMAIL;type=INTERNET;type=WORK;type=pref:mallory@yourjourneyhomedoula.com
 TEL;type=CELL;type=VOICE;type=pref:+19167455697
-ADR;type=HOME;type=pref:;;925 Solarium Drive;Reno;NV;89511;
 item1.URL;type=pref:https://www.yourjourneyhomedoula.com
 item1.X-ABLabel:_$!<HomePage>!$_
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAA
